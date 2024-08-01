@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		F83F2F432C5B133F00E89347 /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F422C5B133F00E89347 /* BookwormApp.swift */; };
-		F83F2F452C5B133F00E89347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F442C5B133F00E89347 /* ContentView.swift */; };
+		F83F2F452C5B133F00E89347 /* BindingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F442C5B133F00E89347 /* BindingContentView.swift */; };
 		F83F2F472C5B134000E89347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83F2F462C5B134000E89347 /* Assets.xcassets */; };
 		F83F2F4A2C5B134000E89347 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83F2F492C5B134000E89347 /* Preview Assets.xcassets */; };
+		F83F2F542C5B189B00E89347 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F532C5B189B00E89347 /* PushButton.swift */; };
+		F83F2F562C5B1A9200E89347 /* TextEditorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F552C5B1A9200E89347 /* TextEditorContentView.swift */; };
+		F83F2F582C5B1B3C00E89347 /* TextFieldWithAxisContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F572C5B1B3C00E89347 /* TextFieldWithAxisContainerView.swift */; };
+		F83F2F5A2C5B1E1200E89347 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F592C5B1E1200E89347 /* Student.swift */; };
+		F83F2F5C2C5B1EAC00E89347 /* SwiftDataContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F5B2C5B1EAC00E89347 /* SwiftDataContentView.swift */; };
+		F83F2F602C5B244500E89347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F5F2C5B244500E89347 /* ContentView.swift */; };
+		F83F2F622C5B250D00E89347 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F612C5B250D00E89347 /* Book.swift */; };
+		F83F2F642C5B259500E89347 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F632C5B259500E89347 /* AddBookView.swift */; };
+		F83F2F662C5B2A0500E89347 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F652C5B2A0500E89347 /* RatingView.swift */; };
+		F83F2F682C5B2C0800E89347 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F672C5B2C0800E89347 /* EmojiRatingView.swift */; };
+		F83F2F6A2C5B2F4D00E89347 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F692C5B2F4D00E89347 /* DetailView.swift */; };
+		F83F2F6D2C5B3A4B00E89347 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F2F6C2C5B3A4B00E89347 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F83F2F3F2C5B133F00E89347 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83F2F422C5B133F00E89347 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
-		F83F2F442C5B133F00E89347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F83F2F442C5B133F00E89347 /* BindingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingContentView.swift; sourceTree = "<group>"; };
 		F83F2F462C5B134000E89347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F83F2F492C5B134000E89347 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F83F2F532C5B189B00E89347 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		F83F2F552C5B1A9200E89347 /* TextEditorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorContentView.swift; sourceTree = "<group>"; };
+		F83F2F572C5B1B3C00E89347 /* TextFieldWithAxisContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithAxisContainerView.swift; sourceTree = "<group>"; };
+		F83F2F592C5B1E1200E89347 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		F83F2F5B2C5B1EAC00E89347 /* SwiftDataContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataContentView.swift; sourceTree = "<group>"; };
+		F83F2F5F2C5B244500E89347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F83F2F612C5B250D00E89347 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F83F2F632C5B259500E89347 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		F83F2F652C5B2A0500E89347 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		F83F2F672C5B2C0800E89347 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		F83F2F692C5B2F4D00E89347 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F83F2F6C2C5B3A4B00E89347 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,11 @@
 		F83F2F412C5B133F00E89347 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				F83F2F6B2C5B3A4000E89347 /* Extensions */,
+				F83F2F522C5B188800E89347 /* Models */,
+				F83F2F512C5B188700E89347 /* Views */,
+				F83F2F502C5B188400E89347 /* ViewModels */,
 				F83F2F422C5B133F00E89347 /* BookwormApp.swift */,
-				F83F2F442C5B133F00E89347 /* ContentView.swift */,
 				F83F2F462C5B134000E89347 /* Assets.xcassets */,
 				F83F2F482C5B134000E89347 /* Preview Content */,
 			);
@@ -65,6 +92,63 @@
 				F83F2F492C5B134000E89347 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F83F2F502C5B188400E89347 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F83F2F512C5B188700E89347 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F83F2F5E2C5B241A00E89347 /* Playground */,
+				F83F2F5F2C5B244500E89347 /* ContentView.swift */,
+				F83F2F692C5B2F4D00E89347 /* DetailView.swift */,
+				F83F2F672C5B2C0800E89347 /* EmojiRatingView.swift */,
+				F83F2F652C5B2A0500E89347 /* RatingView.swift */,
+				F83F2F632C5B259500E89347 /* AddBookView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F83F2F522C5B188800E89347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F83F2F5D2C5B22F600E89347 /* Playground */,
+				F83F2F612C5B250D00E89347 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F83F2F5D2C5B22F600E89347 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F83F2F592C5B1E1200E89347 /* Student.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		F83F2F5E2C5B241A00E89347 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F83F2F532C5B189B00E89347 /* PushButton.swift */,
+				F83F2F442C5B133F00E89347 /* BindingContentView.swift */,
+				F83F2F552C5B1A9200E89347 /* TextEditorContentView.swift */,
+				F83F2F572C5B1B3C00E89347 /* TextFieldWithAxisContainerView.swift */,
+				F83F2F5B2C5B1EAC00E89347 /* SwiftDataContentView.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		F83F2F6B2C5B3A4000E89347 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F83F2F6C2C5B3A4B00E89347 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F83F2F452C5B133F00E89347 /* ContentView.swift in Sources */,
+				F83F2F662C5B2A0500E89347 /* RatingView.swift in Sources */,
+				F83F2F562C5B1A9200E89347 /* TextEditorContentView.swift in Sources */,
+				F83F2F5A2C5B1E1200E89347 /* Student.swift in Sources */,
+				F83F2F602C5B244500E89347 /* ContentView.swift in Sources */,
+				F83F2F682C5B2C0800E89347 /* EmojiRatingView.swift in Sources */,
+				F83F2F5C2C5B1EAC00E89347 /* SwiftDataContentView.swift in Sources */,
+				F83F2F452C5B133F00E89347 /* BindingContentView.swift in Sources */,
+				F83F2F6A2C5B2F4D00E89347 /* DetailView.swift in Sources */,
+				F83F2F6D2C5B3A4B00E89347 /* String+Extensions.swift in Sources */,
+				F83F2F622C5B250D00E89347 /* Book.swift in Sources */,
 				F83F2F432C5B133F00E89347 /* BookwormApp.swift in Sources */,
+				F83F2F542C5B189B00E89347 /* PushButton.swift in Sources */,
+				F83F2F582C5B1B3C00E89347 /* TextFieldWithAxisContainerView.swift in Sources */,
+				F83F2F642C5B259500E89347 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
