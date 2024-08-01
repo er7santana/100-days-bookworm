@@ -13,6 +13,13 @@ Today you have four topics to work through, in which you’ll learn about @Bindi
 - Creating a custom component with @Binding
 - Accepting multi-line text input with TextEditor
 - Introduction to SwiftData and SwiftUI
+- Creating books with SwiftData
+- Adding a custom star rating component
+- Building a list with @Query
+- Showing book details
+- Sorting SwiftData queries using SortDescriptor
+- Deleting from a SwiftData query
+- Using an alert to pop a NavigationLink programmatically
 
 ## Screenshots
 
